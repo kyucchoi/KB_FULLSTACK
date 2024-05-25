@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      //   function callFiveTimes(callback) {
+      //     for (let i = 0; i < 5; i++) {
+      //       callback();
+      //     }
+      //   }
+
+      //   callFiveTimes(function () {
+      //     alert('함수 호출');
+      //   });
+
+      function callFiveTimes(callback) {
+        for (let i = 0; i < 5; i++) {
+          callback();
+        }
+      }
+
+      const consoleFunc = function () {
+        console.log('비상!!');
+      };
+
+      callFiveTimes(consoleFunc);
+
+      callFiveTimes(function () {
+        console.log('콜백');
+      });
+    </script>
+  </head>
+  <body></body>
+</html>

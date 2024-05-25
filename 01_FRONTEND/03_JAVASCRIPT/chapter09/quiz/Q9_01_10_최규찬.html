@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- 1 -->
+    <script>
+      alert('Hello JavaScript .. !');
+      console.log('Hello World...!');
+      console.log('Hello World...!');
+    </script>
+
+    <!-- 2 -->
+    <script>
+      let pi = 3.14;
+      let r = 10;
+      alert(pi * r * r);
+    </script>
+
+    <!-- 3 -->
+    <script>
+      let date = new Date();
+      let hours = date.getHours();
+      if (hours < 12) {
+        alert('오전입니다.');
+      } else {
+        alert('오후입니다.');
+      }
+    </script>
+
+    <!-- 4 -->
+    <script>
+      let date = new Date();
+      let month = date.getMonth() + 1;
+      if (3 <= month && month <= 5) {
+        console.log('봄입니다.');
+      } else if (6 <= month && month <= 8) {
+        console.log('여름입니다.');
+      } else if (9 <= month && month <= 11) {
+        console.log('가을입니다.');
+      } else {
+        console.log('겨울입니다.');
+      }
+    </script>
+
+    <!-- 5 -->
+    <script>
+      let array = [10, 20, 30, 40, 50];
+      console.log(array.length);
+      for (let i = 0; i < 5; i++) {
+        alert(array[i]);
+      }
+    </script>
+
+    <!-- 6 -->
+    <script>
+      let array = [10, 20, 30, 40, 50];
+      let i = 0;
+      while (i < array.length) {
+        alert(array[i]);
+        i++;
+      }
+    </script>
+
+    <!-- 7 -->
+    <script>
+      let output = 0;
+      for (let i = 0; i <= 100; i++) {
+        output += i;
+      }
+      console.log(output);
+    </script>
+
+    <!-- 8 -->
+    <script>
+      function f(x) {
+        return x * x;
+      }
+      alert(f(12));
+    </script>
+
+    <!-- 9 -->
+    <script>
+      function callFiveTimes(callback) {
+        for (let i = 0; i < 5; i++) {
+          callback();
+        }
+      }
+      let fun = function () {
+        console.log('함수 호출');
+      };
+      callFiveTimes(fun);
+    </script>
+
+    <!-- 10 -->
+    <script>
+      function callFiveTimes(callback) {
+        for (let i = 0; i < 5; i++) {
+          callback();
+        }
+      }
+      callFiveTimes(function () {
+        alert('함수 호출');
+      });
+    </script>
+  </head>
+  <body></body>
+</html>
