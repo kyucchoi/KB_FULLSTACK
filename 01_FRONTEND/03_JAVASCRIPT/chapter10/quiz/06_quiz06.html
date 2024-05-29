@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li class="click">1번</li>
+      <li>2번</li>
+      <li id="remove">3번</li>
+      <li>4번</li>
+      <li class="red">5번</li>
+      <li class="red">6번</li>
+      <input id="input" type="text" />
+    </ul>
+    <script>
+      const buttonEl = document.querySelector('.click');
+      btnEl.onclick = function () {
+        alert('클릭');
+      };
+
+      const colorEl = document.querySelector('.red');
+      colorEl.backgroundColor = 'red';
+
+      const inputEl = document.querySelector('input');
+      inputEl.setAttribute('placeholder', '이름을 입력하세요');
+      inputEl.placeholder = '이름을 입력하세요';
+    </script>
+  </body>
+</html>
