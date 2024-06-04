@@ -2,20 +2,22 @@
   "todos": [
     {
       "id": "1",
-      "todo": "뉴진스 보러가기",
-      "desc": "언젠간 보고 만다 ㅠㅠ",
+      "todo": "뉴진스 보러가기!",
       "done": false
     },
     {
       "id": "2",
       "todo": "페이커 숭배하기",
-      "desc": "1일 3숭배, 숭배할 시간입니다!",
       "done": false
     },
     {
-      "id": "d101",
-      "todo": "들어가니??",
-      "dec": "들어갔니????",
+      "id": "3",
+      "todo": "Vue 학습",
+      "done": false
+    },
+    {
+      "id": "4",
+      "todo": "코테 정복",
       "done": false
     }
   ],
@@ -24,7 +26,6 @@
       "id": "12",
       "password": "12"
     },
-
     {
       "id": "kyucchoi",
       "password": "1234"
