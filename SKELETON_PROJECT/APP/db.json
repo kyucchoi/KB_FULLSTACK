@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "최규찬",
+      "profilePicture": "https://img3.daumcdn.net/thumb/R658x0.q70/?fname=https://t1.daumcdn.net/news/202203/30/sportskhan/20220330171600461ppis.jpg",
+      "income_goal": 50000,
+      "expense_goal": 30000
+    }
+  ],
+  "income": [
+    {
+      "date": "2024-06-03",
+      "amount": 500000,
+      "description": "월급",
+      "id": "938f"
+    },
+    {
+      "date": "2024-06-01",
+      "amount": 300000,
+      "description": "용돈",
+      "id": "c51e"
+    }
+  ],
+  "expenses": [
+    {
+      "date": "2024-06-03",
+      "amount": 34000,
+      "category": "식비",
+      "description": "배민-닭발",
+      "id": "999a"
+    },
+    {
+      "date": "2024-06-03",
+      "amount": 100000,
+      "category": "적금",
+      "description": "주택청약",
+      "id": "a450"
+    },
+    {
+      "date": "2024-06-04",
+      "amount": 5500,
+      "category": "식비",
+      "description": "세종대 학식",
+      "id": "bfe0"
+    },
+    {
+      "date": "2024-06-04",
+      "amount": 45000,
+      "category": "식비",
+      "description": "마왕족발",
+      "id": "0447"
+    },
+    {
+      "date": "2024-06-05",
+      "amount": 6000,
+      "category": "식비",
+      "description": "세종대 학식",
+      "id": "f2fa"
+    },
+    {
+      "date": "2024-06-07",
+      "amount": 18000,
+      "category": "식비",
+      "description": "은혜즉석떡볶이",
+      "id": "dc42"
+    },
+    {
+      "date": "2024-06-07",
+      "amount": 36000,
+      "category": "쇼핑",
+      "description": "아트박스-생일선물",
+      "id": "3225"
+    },
+    {
+      "date": "2024-06-08",
+      "amount": 25000,
+      "category": "쇼핑",
+      "description": "다이소-이것저것",
+      "id": "3527"
+    },
+    {
+      "date": "2024-06-10",
+      "amount": 62000,
+      "category": "교통비",
+      "description": "기후동행카드 충전",
+      "id": "44d8"
+    },
+    {
+      "date": "2024-06-10",
+      "amount": 40000,
+      "category": "식비",
+      "description": "신사골 감자탕",
+      "id": "60d5"
+    },
+    {
+      "date": "2024-06-11",
+      "amount": 76000,
+      "category": "식비",
+      "description": "홈플러스 장보기",
+      "id": "3f28"
+    }
+  ]
+}
