@@ -16,17 +16,20 @@
       <input id="input" type="text" />
     </ul>
     <script>
-      const buttonEl = document.querySelector('.click');
+      const btnEl = document.querySelector('.click');
       btnEl.onclick = function () {
         alert('클릭');
       };
 
+      const deletedLi = document.getElementById('remove');
+      deletedLi.remove();
+
       const colorEl = document.querySelector('.red');
       colorEl.backgroundColor = 'red';
 
-      const inputEl = document.querySelector('input');
-      inputEl.setAttribute('placeholder', '이름을 입력하세요');
-      inputEl.placeholder = '이름을 입력하세요';
+      document
+        .querySelector('#input')
+        .setAttribute('placeholder', '이름을 입력하세요');
     </script>
   </body>
 </html>
