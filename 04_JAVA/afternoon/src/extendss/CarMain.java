@@ -20,5 +20,6 @@ public class CarMain {
 
         hydrogenCar.move();
         hydrogenCar.fillHydrogen();
+        hydrogenCar.openDoor();
     }
 }
