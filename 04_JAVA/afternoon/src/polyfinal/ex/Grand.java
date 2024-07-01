@@ -10,6 +10,5 @@ public class Grand implements Car {
     public void drive() {
         System.out.println("그랜져, 주행 시작합니다!!");
         System.out.println("그랜져 주행 종료!!");
-
     }
 }
