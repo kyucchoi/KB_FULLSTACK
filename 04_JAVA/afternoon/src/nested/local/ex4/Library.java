@@ -19,6 +19,7 @@ public class Library {
             String title = scanner.nextLine();
             System.out.print("책 저자를 입력 하세요: ");
             String author = scanner.nextLine();
+            System.out.println();
 
             Book newBook = new Book(title, author);
 
@@ -26,18 +27,21 @@ public class Library {
             bookCount++;
         } else {
             System.out.println("더 이상 추가할 수 없습니다!");
+            System.out.println();
         }
     }
 
     public void showBooks() {
         if (bookCount == 0) {
             System.out.println("현재 책이 없습니다!");
+            System.out.println();
         } else {
             System.out.println("현재 라이브러리의 책 목록 : " + bookCount);
 
             for (int i = 0; i < bookCount; i++) {
-                System.out.println((i + 1) + ". 제목 : " + books[i].title + " / 저자 : " + books[i].author);
+                System.out.println((i + 1) + ". 제목 : " + books[i].getTitle() + " / 저자 : " + books[i].getAuthor());
             }
+            System.out.println();
         }
     }
 
@@ -50,12 +54,12 @@ public class Library {
             this.author = author;
         }
 
-//        public String getTitle() {
-//            return title;
-//        }
-//
-//        public String getAuthor() {
-//            return author;
-//        }
+        public String getTitle() {
+            return title;
+        }
+
+        public String getAuthor() {
+            return author;
+        }
     }
 }
