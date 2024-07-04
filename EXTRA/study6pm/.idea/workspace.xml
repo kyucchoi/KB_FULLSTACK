@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1f24af2-463b-48c6-acfe-a4be42f88253" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/study240627/Study01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +40,7 @@
     "Application.Study02.executor": "Run",
     "Application.Study03.executor": "Run",
     "Application.study240625.Study01.executor": "Run",
+    "Application.study240704.Study02.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -53,7 +53,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Study01 (1)">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="study240704" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.study240704.Study02">
     <configuration name="Study01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Study01" />
       <module name="study6pm" />
@@ -61,25 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study240620.Study01" />
+    <configuration name="Study02Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study240704.Study02Answer" />
       <module name="study6pm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study240620.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Study02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study240620.Study02" />
-      <module name="study6pm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study240620.*" />
+          <option name="PATTERN" value="study240704.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="study240704.Study02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study240704.Study02" />
+      <module name="study6pm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study240704.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.study240704.Study02" />
+        <item itemvalue="Application.Study02Answer" />
         <item itemvalue="Application.Study01 (1)" />
         <item itemvalue="Application.study240625.Study01" />
         <item itemvalue="Application.Study03" />
-        <item itemvalue="Application.Study02" />
-        <item itemvalue="Application.Study01" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +148,7 @@
       <workItem from="1718875226843" duration="4812000" />
       <workItem from="1719305769708" duration="5460000" />
       <workItem from="1719479152493" duration="5839000" />
+      <workItem from="1720084108548" duration="4026000" />
     </task>
     <servers />
   </component>
