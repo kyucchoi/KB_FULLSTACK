@@ -1,8 +1,8 @@
-package study240628;
+package study240628.예산;
 
 import java.util.Arrays;
 
-public class Yesan {
+public class Solution {
     public int solution(int[] d, int budget) {
         int answer = 0;
         int total = 0;

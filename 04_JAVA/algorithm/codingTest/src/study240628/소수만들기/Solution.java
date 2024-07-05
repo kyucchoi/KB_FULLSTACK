@@ -1,6 +1,6 @@
-package study240628;
+package study240628.소수만들기;
 
-public class CreateSosu {
+public class Solution {
     public int solution(int[] nums) {
         int answer = 0;
         int sum = 0;

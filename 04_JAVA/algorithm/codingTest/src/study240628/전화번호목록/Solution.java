@@ -1,9 +1,9 @@
-package study240628;
+package study240628.전화번호목록;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Phone {
+public class Solution {
     public boolean solution(String[] phone_book) {
         Map<String, Integer> map = new HashMap<>();
 

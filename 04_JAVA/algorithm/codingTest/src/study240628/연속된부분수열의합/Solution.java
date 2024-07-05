@@ -1,6 +1,6 @@
-package study240628;
+package study240628.연속된부분수열의합;
 
-public class SuyulAdd {
+public class Solution {
     //✅ 정답 범위의 초기값을 (0, 1,000,000)으로 설정한다.
     //✅ end를 0 ~ sequence.length - 1 까지 순회한다.
     //✅ end 부분을 합계에 더한다.

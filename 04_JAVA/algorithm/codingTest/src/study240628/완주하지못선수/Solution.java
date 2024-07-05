@@ -1,8 +1,8 @@
-package study240628;
+package study240628.완주하지못선수;
 
 import java.util.HashMap;
 
-public class NoRun {
+public class Solution {
     public String solution(String[] participant, String[] completion) {
         HashMap<String, Integer> hashMap = new HashMap(); // HashMap 객체 생성, 초기 용량은 기본값으로 설정됨
         String answer = ""; // 결과를 저장할 변수
