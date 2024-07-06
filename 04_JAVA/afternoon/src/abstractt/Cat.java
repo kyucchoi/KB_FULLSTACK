@@ -3,7 +3,7 @@ package abstractt;
 public class Cat extends AbstractAnimal {
     @Override
     public void sound() {
-        System.out.println("고양이는 야옹");
+        System.out.println("고양이는 야옹!");
     }
 
     @Override
