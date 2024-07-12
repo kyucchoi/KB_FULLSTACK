@@ -108,3 +108,45 @@ INNER JOIN products p
 ON od.product_id = p.product_id
 INNER JOIN categories cat
 ON cat.category_id = p.category_id;
+
+-- 사용자별 주문 총액
+SELECT 
+	c.customer_name,
+    SUM(p.product_price * od.quantity) AS 총액
+FROM customers c
+INNER JOIN orders o
+ON c.customer_id = o.customer_id
+INNER JOIN order_details od
+ON o.order_id = od.order_id
+INNER JOIN products p
+ON od.product_id = p.product_id
+INNER JOIN categories cat
+ON cat.category_id = p.category_id
+GROUP BY c.customer_name
+ORDER BY 총액 DESC;
+
+-- 각 물품이 몇개 팔렸나
+SELECT
+	p.product_name,
+	SUM(od.quantity) AS "판매 개수"
+FROM customers c
+INNER JOIN orders o
+ON c.customer_id = o.customer_id
+INNER JOIN order_details od
+ON o.order_id = od.order_id
+INNER JOIN products p
+ON od.product_id = p.product_id
+INNER JOIN categories cat
+ON cat.category_id = p.category_id
+GROUP BY p.product_name
+ORDER BY "판매 개수" DESC;
+
+-- 각 물품이 몇개 팔렸나 답지
+SELECT
+	p.product_name,
+    SUM(od.quantity) AS 총판매수
+FROM products p
+INNER JOIN order_details od
+ON p.product_id = od.product_id
+GROUP BY p.product_name
+ORDER BY 총판매수 DESC;
