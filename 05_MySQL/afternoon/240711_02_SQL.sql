@@ -131,7 +131,7 @@ SELECT
 	SUM(od.quantity) AS "판매 개수"
 FROM customers c
 INNER JOIN orders o
-ON c.customer_id = o.customer_id
+ON c.customer_id = oactor.customer_id
 INNER JOIN order_details od
 ON o.order_id = od.order_id
 INNER JOIN products p
