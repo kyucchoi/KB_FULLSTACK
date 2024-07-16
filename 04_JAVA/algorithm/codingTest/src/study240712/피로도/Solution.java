@@ -18,6 +18,7 @@ public class Solution {
         if (cnt > answer) {
             answer = cnt;
         }
+
         //✅ dungeons를 순회한다.
         for (int i = 0; i < n; i++) {
             //✅ 현재 피로도 k가 i번 째 던전의 필요피로도보다 크거나 같으면서, 방문한 적 없으면
