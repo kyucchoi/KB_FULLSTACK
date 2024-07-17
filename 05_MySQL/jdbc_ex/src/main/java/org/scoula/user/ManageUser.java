@@ -1,6 +1,6 @@
 package org.scoula.user;
 
-import org.scoula.common.JDBUtil;
+import org.scoula.common.JDBCUtil;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class ManageUser {
     public void addUser(User newUser) {
         // 데이터베이스 접속
-        Connection conn = JDBUtil.getConnection();
+        Connection conn = JDBCUtil.getConnection();
 
         String sql = "INSERT INTO user_table (userid, name, password, age, membership) VALUES (?, ?, ?, ?, ?)";
 
@@ -28,7 +28,7 @@ public class ManageUser {
     }
 
     public void deleteUserById(int id) {
-        Connection conn = JDBUtil.getConnection();
+        Connection conn = JDBCUtil.getConnection();
 
         String sql = "DELETE FROM user_table WHERE id = ?";
 
@@ -49,7 +49,7 @@ public class ManageUser {
     }
 
     public void getAllUsers() {
-        Connection conn = JDBUtil.getConnection();
+        Connection conn = JDBCUtil.getConnection();
 
         String sql = "SELECT * FROM user_table";
 

@@ -1,17 +1,17 @@
-package org.scoula.common;
+package org.scoula.todo.common;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-public class JDBUtil {
+public class JDBCUtil {
     static Connection conn = null;
 
     static {
         try {
             Properties properties = new Properties();
-            properties.load(JDBUtil.class.getResourceAsStream("/application.properties"));
+            properties.load(JDBCUtil.class.getResourceAsStream("/application.properties"));
             String driver = properties.getProperty("driver");
             String url = properties.getProperty("url");
             String id = properties.getProperty("id");

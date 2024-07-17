@@ -1,10 +1,5 @@
 package org.scoula.user;
 
-import org.scoula.common.JDBUtil;
-
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.Scanner;
 
 public class ManageUserProgram {
