@@ -35,6 +35,7 @@ public class AccountService {
     private UserVO getUser() throws SQLException, UsernameDuplicateException, PasswordMissmatchException {
         String username = Input.getLine("사용자 ID: ");
         checkDuplication(username);
+
         String password = Input.getLine("비밀번호: ");
         String password2 = Input.getLine("비밀번호 확인: ");
         if (!password.equals(password2)) {
@@ -43,6 +44,7 @@ public class AccountService {
 
         String name = Input.getLine("이름: ");
         String role = Input.getLine("역할: ");
+
         return UserVO.builder()
                 .id(username)
                 .password(password)

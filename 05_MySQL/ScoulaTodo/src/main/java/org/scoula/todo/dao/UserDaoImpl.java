@@ -43,6 +43,7 @@ public class UserDaoImpl implements UserDao {
         user.setPassword(rs.getString("PASSWORD"));
         user.setName(rs.getString("NAME"));
         user.setRole(rs.getString("ROLE"));
+
         return user;
     }
 
@@ -51,6 +52,7 @@ public class UserDaoImpl implements UserDao {
     public List<UserVO> getList() throws SQLException { // 모든 사용자 정보를 조회
         List<UserVO> userList = new ArrayList<UserVO>();
         Connection conn = JDBCUtil.getConnection();
+
         try (PreparedStatement stmt = conn.prepareStatement(USER_LIST);
              ResultSet rs = stmt.executeQuery()) {
             while (rs.next()) { // 결과 집합의 각 행을 UserVO 객체로 매핑하고 리스트에 추가
@@ -58,6 +60,7 @@ public class UserDaoImpl implements UserDao {
                 userList.add(user);
             }
         }
+
         return userList;
     }
 
@@ -66,12 +69,14 @@ public class UserDaoImpl implements UserDao {
     public Optional<UserVO> get(String id) throws SQLException { // 주어진 ID를 가진 사용자의 정보를 조회
         try (PreparedStatement stmt = conn.prepareStatement(USER_GET)) {
             stmt.setString(1, id); // id 값을 SQL 명령어의 ? 자리에 설정
+
             try (ResultSet rs = stmt.executeQuery()) {
                 if (rs.next()) { // 결과가 존재하면 UserVO 객체로 매핑하고 반환
                     return Optional.of(map(rs));
                 }
             }
         }
+
         return Optional.empty();
     }
 

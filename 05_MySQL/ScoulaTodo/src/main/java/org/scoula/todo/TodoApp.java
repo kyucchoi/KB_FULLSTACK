@@ -65,8 +65,8 @@ public class TodoApp extends App {
     }
 
     public void exit() {
-        System.out.println("앱을 종료합니다.");
-        System.exit(0); // 어플리케이션 종료
+        System.out.println("프로그램 종료");
+        System.exit(0);
     }
 
     public static void main(final String[] args) {

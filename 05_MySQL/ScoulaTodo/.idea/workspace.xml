@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3767739e-b920-4ee5-8127-9fb25a9e1e60" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/classes/java/main/org/scoula/lib/cli/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/classes/java/main/org/scoula/lib/cli/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/classes/java/main/org/scoula/lib/cli/ui/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/classes/java/main/org/scoula/lib/cli/ui/Input.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/libs/ScoulaCli-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/libs/ScoulaCli-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/src/main/java/org/scoula/app/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/ui/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/ui/Input.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/87e8df54-07b5-499a-8e67-5fd196ee34ac.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/87e8df54-07b5-499a-8e67-5fd196ee34ac.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/todo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/TodoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/TodoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/domain/TodoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/domain/TodoVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/scoula/todo/dao/TodoDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/scoula/todo/dao/TodoDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,37 +59,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.ScoulaTodo [:TodoApp.main()].executor": "Run",
-    "Gradle.TodoDaoTest.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/KB_FULLSTACK/05_MySQL/ScoulaTodo/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.ScoulaTodo [:TodoApp.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TodoDaoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/KB_FULLSTACK/05_MySQL/ScoulaTodo/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\KB_FULLSTACK\05_MySQL\ScoulaTodo\src\main\resources" />
@@ -166,7 +179,10 @@
       <workItem from="1721194716563" duration="486000" />
       <workItem from="1721195307135" duration="16000" />
       <workItem from="1721195325777" duration="21000" />
-      <workItem from="1721195380854" duration="8954000" />
+      <workItem from="1721195380854" duration="9717000" />
+      <workItem from="1721265826580" duration="5097000" />
+      <workItem from="1721271508098" duration="310000" />
+      <workItem from="1721271837194" duration="1499000" />
     </task>
     <servers />
   </component>

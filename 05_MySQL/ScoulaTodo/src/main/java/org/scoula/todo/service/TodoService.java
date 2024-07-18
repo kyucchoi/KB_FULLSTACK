@@ -22,6 +22,7 @@ public class TodoService {
             int count = dao.getTotalCount(userId.get());
             List<TodoVO> list = dao.getList(userId.get());
             System.out.println("총 건수: " + count);
+
             System.out.println("=========================================");
             for (TodoVO todo : list) {
                 System.out.printf("%03d] %s%s\n", todo.getId(), todo.getTitle(),
@@ -94,6 +95,7 @@ public class TodoService {
             String description = Input.getLine("설명", todo.getDescription());
             boolean done = Input.confirm("완료", todo.getDone());
             System.out.println("=========================================");
+
             todo.setTitle(title);
             todo.setDescription(description);
             todo.setDone(done);

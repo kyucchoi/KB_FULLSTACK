@@ -20,7 +20,12 @@ class TodoDaoTest {
     @DisplayName("테스트 데이터를 생성한다.")
     public void testData() throws SQLException {
         for (int i = 0; i <= 163; i++) {
-            TodoVO todo = TodoVO.builder().title("테스트 Todo " + i).description("테스트 Todo 설명" + i).userId("guest").done(false).build();
+            TodoVO todo = TodoVO.builder()
+                    .title("테스트 Todo " + i)
+                    .description("테스트 Todo 설명" + i)
+                    .userId("guest")
+                    .done(false)
+                    .build();
             dao.create(todo);
         }
         ;

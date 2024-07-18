@@ -44,6 +44,7 @@ public class TodoDaoImpl implements TodoDao {
 
     private TodoVO map(ResultSet rs) throws SQLException {
         TodoVO todo = new TodoVO();
+
         todo.setId(rs.getLong("id"));
         todo.setTitle(rs.getString("title"));
         todo.setDescription(rs.getString("description"));
@@ -54,6 +55,7 @@ public class TodoDaoImpl implements TodoDao {
 
     private List<TodoVO> mapList(ResultSet rs) throws SQLException {
         List<TodoVO> todoList = new ArrayList<TodoVO>();
+
         while (rs.next()) {
             TodoVO todo = map(rs);
             todoList.add(todo);
@@ -66,13 +68,11 @@ public class TodoDaoImpl implements TodoDao {
     public List<TodoVO> getList(String user) throws SQLException {
         String sql = "select * from todo where userId = ?";
 
-        try (PreparedStatement stmt = conn.prepareStatement
-                (sql)) {
+        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setString(1, user);
 
             try (ResultSet rs = stmt.executeQuery()) {
-                return mapList
-                        (rs);
+                return mapList(rs);
             }
         }
     }
@@ -112,8 +112,9 @@ public class TodoDaoImpl implements TodoDao {
     }
 
     @Override
-    public int update(String userId, TodoVO todo) throws SQLException {
+    public void update(String userId, TodoVO todo) throws SQLException {
         String sql = "update todo set title = ?, description = ?, done = ? where userId =? and id = ?";
+
         try (PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setString(1, todo.getTitle());
             stmt.setString(2, todo.getDescription());
@@ -122,12 +123,10 @@ public class TodoDaoImpl implements TodoDao {
             stmt.setLong(5, todo.getId());
             stmt.executeUpdate();
         }
-
-        return 0;
     }
 
     @Override
-    public int delete(String userId, Long id) throws SQLException {
+    public void delete(String userId, Long id) throws SQLException {
         String sql = "delete from todo where userId = ? and id = ?";
 
         try (PreparedStatement stmt = conn.prepareStatement(sql)) {
@@ -135,8 +134,6 @@ public class TodoDaoImpl implements TodoDao {
             stmt.setLong(2, id);
             stmt.executeUpdate();
         }
-
-        return 0;
     }
 
     @Override

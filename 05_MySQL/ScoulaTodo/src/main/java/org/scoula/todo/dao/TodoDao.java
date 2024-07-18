@@ -24,10 +24,10 @@ public interface TodoDao {
     List<TodoVO> search(String userId, String keyword) throws SQLException;
 
     // Todo 수정
-    int update(String userId, TodoVO todo) throws SQLException;
+    void update(String userId, TodoVO todo) throws SQLException;
 
     // Todo 삭제
-    int delete(String userId, Long id) throws SQLException;
+    void delete(String userId, Long id) throws SQLException;
 
     // 페이지네이션
     List<TodoVO> getPage(String userId, PageRequest request) throws SQLException;
