@@ -33,7 +33,7 @@ public class TodoDaoImpl implements TodoDao {
 
     @Override
     public void getTodosByUserId(String user_id) {
-        String sql = "SELECT * FROM todo_user WHERE user_id = ?";
+        String sql = "SELECT * FROM todo2 WHERE user_id = ?";
 
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(1, user_id);
