@@ -12,7 +12,7 @@ public class BankAccount {
             this.balance += amount;
             System.out.println("현재 잔고는 : " + this.balance);
         } else {
-            System.out.println("유효하지 않은 금액입니다");
+            System.out.println("유효하지 않은 금액입니다!");
         }
     }
 
@@ -25,7 +25,7 @@ public class BankAccount {
                 System.out.println("잔고가 부족합니다. 현재 잔고 : " + this.balance);
             }
         } else {
-            System.out.println("유효하지 않은 금액입니다");
+            System.out.println("유효하지 않은 금액입니다!");
         }
     }
 
