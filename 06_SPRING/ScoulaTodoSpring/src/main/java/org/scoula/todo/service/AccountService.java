@@ -16,7 +16,8 @@ import java.util.Optional;
 public class AccountService {
     @Autowired
     UserDao dao;
-//    UserDao dao = new UserDaoImpl();
+    //    UserDao dao = new UserDaoImpl();
+    UserDao dao = Context.getBean(UserDao.class);
 
     public void join() {
         try {

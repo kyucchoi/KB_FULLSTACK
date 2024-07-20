@@ -26,8 +26,12 @@ public class TodoApp extends App {
     Menu userMenu; // 로그인한 상태의 메뉴
     Menu anonymousMenu; // 로그아웃한 상태의 메뉴
 
-    LoginService loginService = new LoginService();
-    AccountService accountService = new AccountService();
+//    LoginService loginService = new LoginService();
+//    AccountService accountService = new AccountService();
+
+    LoginService loginService = Context.getBean(LoginService.class);
+    AccountService accountService = Context.getBean(AccountService.class);
+    TodoService todoService = Context.getBean(TodoService.class);
 
     @Override
     public void init() {
@@ -80,7 +84,8 @@ public class TodoApp extends App {
     }
 
     public static void main(final String[] args) {
-        final TodoApp app = new TodoApp();
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(ProjectConfig.class);
+        TodoApp app = ctx.getBean(TodoApp.class);
         app.run();
     }
 }

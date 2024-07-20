@@ -11,7 +11,8 @@ import java.sql.SQLException;
 import java.util.Optional;
 
 public class AccountService {
-    UserDao dao = new UserDaoImpl();
+    //    UserDao dao = new UserDaoImpl();
+    UserDao dao = Context.getBean(UserDao.class);
 
     public void join() {
         try {

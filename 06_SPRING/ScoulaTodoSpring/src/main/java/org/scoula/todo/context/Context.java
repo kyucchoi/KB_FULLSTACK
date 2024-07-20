@@ -7,14 +7,25 @@ import org.scoula.todo.domain.UserVO;
 @Getter
 @Setter
 public class Context {
-    private UserVO user; // 로그인 사용자 정보, null이면 로그아웃 상태
+    private UserVO user;
+    private Map<Class, Object> map;
 
     private Context() {
+        map = new HashMap<>();
+        map.put(UserDao.class, new UserDaoImpl());
+        map.put(TodoDao.class, new UserDaoImpl());
+        map.put(AccountService.class, new AccountService());
+        map.put(LoginService.class, new LoginService());
+        map.put(TodoService.class, new TodoService());
     }
 
     private static Context context = new Context();
 
     public static Context getContext() {
         return context;
+    }
+
+    public static <T> T getBean(Class<T> clazz) {
+        return (T) context.map.get(clazz);
     }
 }

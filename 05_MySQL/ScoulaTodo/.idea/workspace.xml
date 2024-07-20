@@ -5,24 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3767739e-b920-4ee5-8127-9fb25a9e1e60" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/classes/java/main/org/scoula/lib/cli/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/classes/java/main/org/scoula/lib/cli/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/classes/java/main/org/scoula/lib/cli/ui/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/classes/java/main/org/scoula/lib/cli/ui/Input.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/libs/ScoulaCli-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/libs/ScoulaCli-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/src/main/java/org/scoula/app/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/ui/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_JAVA/ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/ui/Input.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/87e8df54-07b5-499a-8e67-5fd196ee34ac.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/87e8df54-07b5-499a-8e67-5fd196ee34ac.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/TodoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/TodoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/domain/TodoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/domain/TodoVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/context/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/context/Context.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/service/TodoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/scoula/todo/dao/TodoDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/scoula/todo/dao/TodoDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/todo.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -159,8 +148,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
       </set>
     </attachedChunks>
   </component>
@@ -183,6 +172,8 @@
       <workItem from="1721265826580" duration="5097000" />
       <workItem from="1721271508098" duration="310000" />
       <workItem from="1721271837194" duration="1499000" />
+      <workItem from="1721450190387" duration="339000" />
+      <workItem from="1721450542935" duration="512000" />
     </task>
     <servers />
   </component>
