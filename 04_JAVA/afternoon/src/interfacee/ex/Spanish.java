@@ -8,7 +8,7 @@ public class Spanish implements Human {
 
     @Override
     public void eat() {
-        System.out.println("El paella??");
+        System.out.println("El paella?");
     }
 
     @Override
