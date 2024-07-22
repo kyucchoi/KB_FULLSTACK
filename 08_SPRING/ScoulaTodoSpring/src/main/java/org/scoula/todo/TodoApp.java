@@ -4,24 +4,37 @@ import org.scoula.lib.cli.App;
 import org.scoula.lib.cli.ui.Menu;
 import org.scoula.lib.cli.ui.MenuItem;
 import org.scoula.lib.cli.ui.Input;
+import org.scoula.todo.config.ProjectConfig;
 import org.scoula.todo.context.Context;
 import org.scoula.todo.exception.LoginFailException;
 import org.scoula.todo.service.AccountService;
 import org.scoula.todo.service.LoginService;
 import org.scoula.todo.service.TodoService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.stereotype.Component;
 
 import java.sql.SQLException;
 
+@Component
 public class TodoApp extends App {
+    @Autowired
+    LoginService loginService;
+    @Autowired
+    AccountService accountService;
+    @Autowired
+    TodoService todoService;
+
     Menu userMenu; // 로그인한 상태의 메뉴
     Menu anonymousMenu; // 로그아웃한 상태의 메뉴
 
 //    LoginService loginService = new LoginService();
 //    AccountService accountService = new AccountService();
 
-    LoginService loginService = Context.getBean(LoginService.class);
-    AccountService accountService = Context.getBean(AccountService.class);
-    TodoService todoService = Context.getBean(TodoService.class);
+//    LoginService loginService = Context.getBean(LoginService.class);
+//    AccountService accountService = Context.getBean(AccountService.class);
+//    TodoService todoService = Context.getBean(TodoService.class);
 
     @Override
     public void init() {
@@ -74,7 +87,8 @@ public class TodoApp extends App {
     }
 
     public static void main(final String[] args) {
-        final TodoApp app = new TodoApp();
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(ProjectConfig.class);
+        TodoApp app = ctx.getBean(TodoApp.class);
         app.run();
     }
 }

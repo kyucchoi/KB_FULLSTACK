@@ -7,13 +7,18 @@ import org.scoula.todo.domain.UserVO;
 import org.scoula.todo.exception.PasswordMissmatchException;
 import org.scoula.todo.exception.UsernameDuplicateException;
 import org.scoula.lib.cli.ui.Input;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.sql.SQLException;
 import java.util.Optional;
 
+@Component
 public class AccountService {
-    //    UserDao dao = new UserDaoImpl();
-    UserDao dao = Context.getBean(UserDao.class);
+    @Autowired
+    UserDao dao;
+//    UserDao dao = new UserDaoImpl();
+//    UserDao dao = Context.getBean(UserDao.class);
 
     public void join() {
         try {

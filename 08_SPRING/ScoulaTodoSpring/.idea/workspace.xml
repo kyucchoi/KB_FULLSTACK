@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3767739e-b920-4ee5-8127-9fb25a9e1e60" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/TodoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/TodoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/context/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/context/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/service/AccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../06_SPRING/ScoulaTodoSpring/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../06_SPRING/ScoulaTodoSpring/.idea/dataSources.local.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../06_SPRING/ScoulaTodoSpring/.idea/dataSources.xml" beforeDir="false" />
@@ -96,6 +91,7 @@
   &quot;keyToString&quot;: {
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Gradle.ScoulaTodo [:TodoApp.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ScoulaTodoSpring [:TodoApp.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.TodoDaoTest.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -114,7 +110,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -141,7 +137,7 @@
   <component name="RunManager" selected="Application.TodoApp">
     <configuration name="TodoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.scoula.todo.TodoApp" />
-      <module name="ScoulaTodo.main" />
+      <module name="ScoulaTodoSpring.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.scoula.todo.*" />
@@ -181,6 +177,11 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.TodoApp" />
+      <item itemvalue="Database Script.users.sql" />
+      <item itemvalue="Gradle.TodoDaoTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Database Script.users.sql" />
@@ -216,9 +217,12 @@
       <workItem from="1721265826580" duration="5097000" />
       <workItem from="1721271508098" duration="310000" />
       <workItem from="1721271837194" duration="1499000" />
-      <workItem from="1721450190387" duration="339000" />
-      <workItem from="1721450542935" duration="512000" />
-      <workItem from="1721618321140" duration="2144000" />
+      <workItem from="1721273460401" duration="1256000" />
+      <workItem from="1721451119780" duration="630000" />
+      <workItem from="1721531166079" duration="4000" />
+      <workItem from="1721607597027" duration="336000" />
+      <workItem from="1721608345891" duration="1436000" />
+      <workItem from="1721618194314" duration="13000" />
     </task>
     <servers />
   </component>
