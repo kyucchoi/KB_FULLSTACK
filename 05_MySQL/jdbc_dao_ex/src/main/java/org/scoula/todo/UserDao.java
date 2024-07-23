@@ -1,6 +1,8 @@
 package org.scoula.todo;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class UserDao {
     static Connection conn = null;
@@ -14,7 +16,7 @@ public class UserDao {
             String url = "jdbc:mysql://localhost:3306/user_ex";
             // 접속 계정은 root 를 사용하므로 id 는 root 로 설정, 비번은 각자의 비번에 맞게 입력
             String id = "root";
-            String password = "1234";
+            String password = "0129";
 
             Class.forName(driver);
             conn = DriverManager.getConnection(url, id, password);
@@ -34,12 +36,90 @@ public class UserDao {
             pstmt.setString(1, email);
             pstmt.setString(2, password);
 
-            int affetedRows = pstmt.executeUpdate();
+            int affentedRows = pstmt.executeUpdate();
 
-            if (affetedRows > 0) {
-                System.out.println("회원 추가 성공!");
+            if (affentedRows > 0) {
+                System.out.println("성공적으로 추가되었습니다!");
             } else {
-                System.out.println("회원 추가 실패!");
+                System.out.println("추가가 실패했습니다!");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void getAllUsers() {
+        List<UserVo> userList = new ArrayList<>();
+        String sql = "SELECT * FROM users";
+
+        try (Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
+            while (rs.next()) {
+                int id = rs.getInt("id");
+                String email = rs.getString("email");
+                String password = rs.getString("password");
+
+                UserVo user = new UserVo(id, email, password);
+                userList.add(user);
+            }
+            userList.forEach((user) -> System.out.println(user));
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void UpdateUser(String newEmail, String newPassword, int id) {
+        String sql = "UPDATE users SET email = ?, password = ? WHERE id = ?";
+
+        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+            pstmt.setString(1, newEmail);
+            pstmt.setString(2, newPassword);
+            pstmt.setInt(3, id);
+
+            int affentedRows = pstmt.executeUpdate();
+
+            if (affentedRows > 0) {
+                System.out.println("회원 업데이트 성공!");
+            } else {
+                System.out.println("회원 업데이트 실패!");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void deleteUser(int id) {
+        String sql = "DELETE FROM users WHERE id = ?";
+
+        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+            pstmt.setInt(1, id);
+
+            int affentedRows = pstmt.executeUpdate();
+
+            if (affentedRows > 0) {
+                System.out.println("회원 삭제 성공!");
+            } else {
+                System.out.println("회원 삭제 실패!");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void getAllUsersWithName() {
+        String sql = "SELECT users.id, users.email, users.password, user_info.name " +
+                "FROM users " +
+                "JOIN user_info ON users.id = user_info.id";
+
+        try (Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
+            while (rs.next()) {
+                int id = rs.getInt("id");
+                String email = rs.getString("email");
+                String password = rs.getString("password");
+                String name = rs.getString("name");
+
+                System.out.printf("ID : %d, Email : %s, Password : %s, Name : %s%n", id, email, password, name);
             }
         } catch (SQLException e) {
             e.printStackTrace();
