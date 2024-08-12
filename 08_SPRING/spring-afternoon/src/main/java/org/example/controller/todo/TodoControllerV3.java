@@ -23,14 +23,14 @@ public class TodoControllerV3 {
         log.info("===============> TODO 조회 페이지 호출, /todo/v3/show");
 
         model.addAttribute("todoList", todoDtoList.getTodoDtoList());
-        return "todo-show3";
+        return "/todo/todo-show3";
     }
 
     @GetMapping("/form")
     public String todoForm() {
         log.info("===============> TODO 추가 페이지 호출, /todo/v3/form");
 
-        return "todo-form3";
+        return "/todo/todo-form3";
     }
 
     @RequestMapping("/form/save")
@@ -43,6 +43,6 @@ public class TodoControllerV3 {
         todoDtoList.addList(todo);
 
         model.addAttribute("todoList", todoDtoList.getTodoDtoList());
-        return "todo-show3";
+        return "/todo/todo-show3";
     }
 }

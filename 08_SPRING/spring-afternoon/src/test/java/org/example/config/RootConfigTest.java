@@ -11,7 +11,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
 import java.sql.Connection;
-import java.sql.SQLException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -25,21 +24,13 @@ class RootConfigTest {
     private SqlSessionFactory sqlSessionFactory;
 
     @Test
-    void dataSource() {
-    }
-
-    @Test
     void sqlSessionFactory() {
-        try (SqlSession session = sqlSessionFactory.openSession()) {
-            Connection con = session.getConnection();
-            log.info("SqlSession: {}", session);
-            log.info("Connection: {}", con);
+        try (SqlSession session = sqlSessionFactory.openSession();
+             Connection conn = session.getConnection()) {
+            log.info("SQLSession", session);
+            log.info("Connection", conn);
         } catch (Exception e) {
             fail(e.getMessage());
         }
-    }
-
-    @Test
-    void transactionManager() {
     }
 }

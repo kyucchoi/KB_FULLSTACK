@@ -11,7 +11,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.converter.json.GsonBuilderUtils;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
 import javax.sql.DataSource;
@@ -19,6 +19,7 @@ import javax.sql.DataSource;
 @Configuration
 @ComponentScan(basePackages = "org.example")
 @MapperScan(basePackages = {"org.example.mapper"})
+@PropertySource("classpath:application.properties")
 public class RootConfig {
 
     @Value("${jdbc.driver}")

@@ -4,15 +4,15 @@
 <html lang="ko">
 <head>
     <meta charset="utf-8">
-    <title>TODO 보기</title>
+    <title>회원 목록</title>
 </head>
 <body>
-<%@ include file="header.jsp" %>
-<h1>할 일 목록</h1>
+<%@ include file="../header.jsp" %>
+<h1>회원 목록 V2</h1>
 <ul>
-    <li><b>할 일 리스트</b></li>
-    <c:forEach var="todo" items="${todoList}">
-        <li>${todo.todo}</li>
+    <li><b>ID - NAME</b></li>
+    <c:forEach var="member" items="${memberList}">
+        <li>${member.id} - ${member.name}</li>
     </c:forEach>
 </ul>
 </body>

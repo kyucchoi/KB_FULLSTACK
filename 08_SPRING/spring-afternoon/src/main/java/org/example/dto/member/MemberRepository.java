@@ -15,10 +15,6 @@ public class MemberRepository {
         this.memberMapper = memberMapper;
     }
 
-    public MemberDto save(final MemberDto memberDto) {
-        return null;
-    }
-
     public List<MemberDto> findAll() {
         return memberMapper.findAll();
     }

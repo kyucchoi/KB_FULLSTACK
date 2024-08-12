@@ -27,14 +27,14 @@ public class MemberControllerV3 {
 
         model.addAttribute("memberList", memberDtoList.getList());
 
-        return "member-show3";
+        return "/member/member-show3";
     }
 
     @GetMapping("/form")
     public String memberForm() {
         log.info("===============> 회원 추가 페이지 호출, /member/v3/form");
 
-        return "member-form3";
+        return "/member/member-form3";
     }
 
     @PostMapping("/form/save")
@@ -48,6 +48,6 @@ public class MemberControllerV3 {
         memberDtoList.addList(id, name);
 
         model.addAttribute("memberList", memberDtoList.getList());
-        return "member-show3";
+        return "/member/member-show3";
     }
 }
