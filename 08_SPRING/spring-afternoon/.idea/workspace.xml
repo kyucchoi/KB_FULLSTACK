@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7299c0fb-afdf-49d7-94ab-643a8ddeabe6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/member/MemberFormControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/member/v1/MemberFormControllerV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/member/MemberFormControllerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/member/v2/MemberFormControllerV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/member/MemberSaveControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/member/v1/MemberSaveControllerV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/member/MemberSaveControllerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/member/v2/MemberSaveControllerV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/member/MemberShowControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/member/v1/MemberShowControllerV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/member/MemberShowControllerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/member/v2/MemberShowControllerV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/todo/TodoFormControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/todo/v1/TodoFormControllerV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/todo/TodoFormControllerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/todo/v2/TodoFormControllerV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/todo/TodoSaveControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/todo/v1/TodoSaveControllerV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/todo/TodoSaveControllerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/todo/v2/TodoSaveControllerV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/todo/TodoShowControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/todo/v1/TodoShowControllerV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/todo/TodoShowControllerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/todo/v2/TodoShowControllerV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/RootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/RootConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,35 +49,69 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build spring-afternoon.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 9.0.91.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/KB_FULLSTACK/08_SPRING/spring-afternoon/src/main/webapp/WEB-INF/views&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build spring-afternoon.executor": "Run",
+    "Gradle.RootConfigTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 9.0.91.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/KB_FULLSTACK/08_SPRING/spring-afternoon/src/main/webapp/WEB-INF/views",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\KB_FULLSTACK\08_SPRING\spring-afternoon\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\KB_FULLSTACK\08_SPRING\spring-afternoon\src\test\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.controller.member" />
       <recent name="org.example.controller" />
       <recent name="org.example.dto" />
-      <recent name="org.example.controller.member" />
       <recent name="org.example.dto.member" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.RootConfigTest">
+    <configuration name="RootConfigTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.config.RootConfigTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat 9.0.91" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.91" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
@@ -175,6 +199,11 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.RootConfigTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -195,6 +224,8 @@
       <workItem from="1722920987308" duration="12275000" />
       <workItem from="1722941907578" duration="19000" />
       <workItem from="1723007359361" duration="4914000" />
+      <workItem from="1723429771158" duration="110000" />
+      <workItem from="1723429898487" duration="2316000" />
     </task>
     <servers />
   </component>
