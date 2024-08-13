@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7299c0fb-afdf-49d7-94ab-643a8ddeabe6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82ab96c1-2c96-4b88-b260-6a7989c4c8b3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/post/RestPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/post/RestPostController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +143,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.91" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.91" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="Gradle : org.example : spring-afternoon-1.0-SNAPSHOT.war">
           <settings>
@@ -261,7 +261,7 @@
       <workItem from="1723429771158" duration="110000" />
       <workItem from="1723429898487" duration="2681000" />
       <workItem from="1723438997132" duration="10344000" />
-      <workItem from="1723525406497" duration="2059000" />
+      <workItem from="1723525406497" duration="3804000" />
     </task>
     <servers />
   </component>
