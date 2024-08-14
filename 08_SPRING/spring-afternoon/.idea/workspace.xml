@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7299c0fb-afdf-49d7-94ab-643a8ddeabe6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/post/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/post/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post/post-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post/post-show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +43,9 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Member" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -266,6 +263,7 @@
       <workItem from="1723438997132" duration="10344000" />
       <workItem from="1723525406497" duration="3804000" />
       <workItem from="1723612330655" duration="4438000" />
+      <workItem from="1723622378445" duration="2998000" />
     </task>
     <servers />
   </component>
