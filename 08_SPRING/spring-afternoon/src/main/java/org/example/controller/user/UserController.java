@@ -19,7 +19,7 @@ public class UserController {
     private final UserService userService;
     private final String context = "/user";
 
-    // /user/login
+    // GET /user/login
     @GetMapping("/login")
     public String loginPage() {
         return context + "/login";
@@ -35,13 +35,13 @@ public class UserController {
         User user = userService.findByUsername(username);
 
         if (user == null) {
-            model.addAttribute("errMsg", "해당 id의 사용자가 없습니다!");
+            model.addAttribute("errMsg", "해당 id의 사용자가 없습니다");
 
             return context + "/login-failed";
         }
 
         if (!userService.isPasswordValid(user, password)) {
-            model.addAttribute("errMsg", "비밀번호가 틀립니다!");
+            model.addAttribute("errMsg", "비밀번호가 틀립니다");
 
             return context + "/login-failed";
         }
@@ -56,7 +56,7 @@ public class UserController {
     @GetMapping("/logout")
     public String logout(HttpSession session) {
         session.invalidate();
-//        session.removeAttribute("loginUser");
+        // session.removeAttribute("loginUser");
 
         return context + "/logout";
     }
@@ -90,6 +90,8 @@ public class UserController {
         newUser.setUsername(username);
         newUser.setPassword(password);
         userService.save(newUser);
+
+        System.out.println("################");
 
         model.addAttribute("username", username);
 
