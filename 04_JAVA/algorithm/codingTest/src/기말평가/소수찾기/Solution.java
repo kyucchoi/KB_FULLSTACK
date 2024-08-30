@@ -14,7 +14,7 @@ public class Solution {
     private void p(String pfix, String str, Set<Integer> prime) {
         int n = str.length();
 
-        if (!prime.equals("")) {
+        if (!pfix.equals("")) {
             int number = Integer.parseInt(pfix);
 
             if (isPrime(number)) {
@@ -30,7 +30,7 @@ public class Solution {
     private boolean isPrime(int n) {
         if (n < 2) return false;
 
-        for (int i = 2; i < Math.sqrt(n); i++) {
+        for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) return false;
         }
 
