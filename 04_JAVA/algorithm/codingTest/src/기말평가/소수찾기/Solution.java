@@ -15,7 +15,7 @@ public class Solution {
         int n = str.length();
 
         if (!prime.equals("")) {
-            int number = Integer.parseInt(str);
+            int number = Integer.parseInt(pfix);
 
             if (isPrime(number)) {
                 prime.add(number);
