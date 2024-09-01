@@ -6,7 +6,7 @@ public class Solution {
     public double maxProbability(int n, int[][] edges, double[] succProb, int start, int end) {
         // 그래프 구성
         List<List<Pair>> graph = new ArrayList<>();
-        
+
         for (int i = 0; i < n; i++) {
             graph.add(new ArrayList<>());
         }
