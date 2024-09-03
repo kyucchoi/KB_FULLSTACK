@@ -30,8 +30,8 @@
     </update>
 
     <delete id="delete">
-        delete
-        from boards
-        where id = #{id}
+        DELETE
+        FROM boards
+        WHERE id = #{id}
     </delete>
 </mapper>
