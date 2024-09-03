@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7299c0fb-afdf-49d7-94ab-643a8ddeabe6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/security/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header2.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/KB_FULLSTACK/08_SPRING/spring-afternoon/src/main/webapp/WEB-INF/views/security&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kyucc/OneDrive/바탕 화면/KB국민은행 IT's Your Life/수업/KB_FULLSTACK/08_SPRING/spring-afternoon/src/main/java/org/example/boardExample/config&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -99,6 +96,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kyucc\OneDrive\바탕 화면\KB국민은행 IT's Your Life\수업\KB_FULLSTACK\08_SPRING\spring-afternoon\src\main\java\org\example\boardExample\config" />
       <recent name="C:\KB_FULLSTACK\08_SPRING\spring-afternoon\src\main\webapp\WEB-INF\views\security" />
       <recent name="C:\KB_FULLSTACK\08_SPRING\spring-afternoon\src\main\webapp\WEB-INF\views" />
       <recent name="C:\KB_FULLSTACK\08_SPRING\spring-afternoon\src\test\resources" />
@@ -246,8 +244,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
       </set>
     </attachedChunks>
   </component>
@@ -275,6 +273,9 @@
       <workItem from="1724735210012" duration="2542000" />
       <workItem from="1724804894645" duration="6697000" />
       <workItem from="1724822147509" duration="4812000" />
+      <workItem from="1725363227094" duration="2054000" />
+      <workItem from="1725365309069" duration="160000" />
+      <workItem from="1725365617576" duration="12000" />
     </task>
     <servers />
   </component>
