@@ -6,10 +6,7 @@ import org.example.board.domain.Board;
 import org.example.board.service.BoardService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -57,8 +54,8 @@ public class BoardController {
         return "redirect:/board/list";
     }
 
-    @PostMapping("/delete")
-    public String delete(@RequestParam("id") Long id) {
+    @PostMapping("/delete/{id}")
+    public String delete(@PathVariable Long id) {
         service.delete(id);
         return "redirect:/board/list";
     }
