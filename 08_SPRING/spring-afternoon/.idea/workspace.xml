@@ -52,6 +52,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kyucchoi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kyucchoi/KB_FULLSTACK.git&quot;,
+    &quot;accountId&quot;: &quot;05342f34-d4c3-4696-bd18-e2cc5acb1739&quot;
+  }
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -79,7 +91,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kyucc/OneDrive/바탕 화면/KB국민은행 IT's Your Life/수업/KB_FULLSTACK/08_SPRING/spring-afternoon/src/main/java/org/example/boardExample/config&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kyucchoi/Documents/KB_ITsYourLife/KB_FULLSTACK/08_SPRING/spring-afternoon&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -119,7 +131,7 @@
       <recent name="org.example.dto.member" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.91">
+  <component name="RunManager" selected="Gradle.RootConfigTest">
     <configuration name="RootConfigTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -233,7 +245,7 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.RootConfigTest" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.91" />
+      <item itemvalue="Tomcat 서버.Tomcat 9.0.91" />
     </list>
     <recent_temporary>
       <list>
@@ -244,8 +256,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
       </set>
     </attachedChunks>
   </component>
@@ -276,6 +288,8 @@
       <workItem from="1725363227094" duration="2054000" />
       <workItem from="1725365309069" duration="160000" />
       <workItem from="1725365617576" duration="12000" />
+      <workItem from="1728004900857" duration="518000" />
+      <workItem from="1728097580410" duration="7000" />
     </task>
     <servers />
   </component>
