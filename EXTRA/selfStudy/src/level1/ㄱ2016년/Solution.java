@@ -1,4 +1,4 @@
-package level1.a2016년;
+package level1.ㄱ2016년;
 
 public class Solution {
     public String solution(int a, int b) {
